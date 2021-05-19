@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+/* Navbar */
+.logo {
+  height: 3.125rem;
+}
+
+/* Menu links */
+nav a.nav-link {
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
+
+.navbar-nav > li > a {
+  color: rgb(218, 218, 218) !important;
+}
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
+  color: #434168 !important;
+}
+.navbar-nav > li > a:hover {
+  color: #434168 !important;
+}
